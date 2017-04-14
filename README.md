@@ -2,7 +2,7 @@
 Check kotlin classes and types with jackson and how it serializes/deserializes them.
 ## Current data model explanation
 ```Fake```, ```Check``` classes implements ```IPolymorphic``` interface. 
-Such model was selected to demostrate how complex polymorphic deserialization works. 
+Such model was selected to demonstrate how complex polymorphic deserialization works. 
 Samples of using: ```List<IPolymorphic>```, which in fact can be ```Fake``` or ```Check``` items. 
 Simple ```JacksonUnitTest``` verifies correct work of serializing/deserializing.
 ## Inspired by
